@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>HTML Live Text</title>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <h1>HTML Live Text</h1>
+    <p>
+      A design element idea for a textual element on a site which is connected
+      to a live data feed and continuously refreshes itself.
+    </p>
+    <p>
+      The reloading is indicated by a stripe shifting across the text similar to
+      how an indeterminate progress indicator element might appear:
+    </p>
+    <progress></progress>
+    <p>
+      Here's an example where you can control whether the element appears to be
+      reloading or not:
+    </p>
+    <p>
+      <span id="demoSpan" class="loading">A live value</span>
+    </p>
+    <p>
+      <input id="toggleInput" type="checkbox" checked />
+      <label for="toggleInput">Loading…</label>
+    </p>
+    <p>
+      In this next example, the element displays the current time as if it was
+      coming from the server and updated sporadically. It updates for between
+      one and two seconds and then stays still for between one and five seconds
+      and this process repeats infinitely.
+    </p>
+    <p>
+      <span id="timeDemoSpan">Loading…</span>
+    </p>
+  </body>
+</html>

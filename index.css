@@ -1,0 +1,45 @@
+body {
+  font: normal 10pt sans-serif;
+}
+
+span {
+  font-size: 50pt;
+}
+
+span.loading {
+  animation: swipe 1s linear infinite;
+  background: linear-gradient(-33deg, black 45%, white 50%, black 55%);
+  background-clip: text;
+  background-position: 50% 0;
+  background-size: 1000% 100%;
+  -webkit-animation: swipe 1s linear infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@-webkit-keyframes swipe {
+    0% {
+      background-position: 100% 50%
+    }
+    100% {
+      background-position: 0% 50%
+    }
+}
+
+@-moz-keyframes swipe {
+  0% {
+    background-position: 100% 50%
+  }
+  100% {
+    background-position: 0% 50%
+  }
+}
+
+@keyframes swipe {
+  0% {
+    background-position: 100% 50%
+  }
+  100% {
+    background-position: 0% 50%
+  }
+}
