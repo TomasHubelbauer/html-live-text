@@ -8,4 +8,4 @@ progress indicator.
 
 ## To-Do
 
-Make an animation of the effect in action and place it in the README.
+### Make an animation of the effect in action and place it in the README
