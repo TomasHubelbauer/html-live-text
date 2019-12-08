@@ -8,4 +8,6 @@ progress indicator.
 
 ## To-Do
 
-### Make an animation of the effect in action and place it in the README
+### Add `node-apng` as a Git dependency and finalize the animation stuff
+
+https://github.com/TomasHubelbauer/node-apng

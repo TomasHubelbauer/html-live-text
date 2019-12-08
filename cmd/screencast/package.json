@@ -1,0 +1,11 @@
+{
+  "name": "screencast",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "fs-extra": "^8.1.0",
+    "node-apng": "git+https://github.com/TomasHubelbauer/node-apng.git",
+    "puppeteer": "^2.0.0"
+  }
+}
