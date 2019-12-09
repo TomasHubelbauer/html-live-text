@@ -8,3 +8,10 @@ progress indicator.
 
 <!-- Generated using cmd/screencast -->
 ![](screencast.png)
+
+## To-Do
+
+### Fix the broken animation on the time element
+
+It is not smooth like the one above it which probably has to do with class
+assignment.
